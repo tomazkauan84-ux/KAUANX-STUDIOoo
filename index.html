@@ -1,39 +1,82 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAUANX STUDIO</title>
+    <meta name="description" content="Site oficial do KAUANX STUDIO.">
     <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-            background-color: #0f172a;
+            margin: 0;
+            padding: 30px 16px;
+            background: #0f172a;
             color: #f8fafc;
             font-family: Arial, sans-serif;
             text-align: center;
-            padding: 50px;
         }
+
+        main {
+            max-width: 800px;
+            margin: 60px auto;
+            padding: 40px 24px;
+            background: #1e293b;
+            border-radius: 16px;
+        }
+
         h1 {
             color: #38bdf8;
-            font-size: 3rem;
+            font-size: 2.5rem;
         }
+
         p {
-            font-size: 1.2rem;
-            color: #94a3b8;
+            color: #cbd5e1;
+            line-height: 1.7;
         }
-        .box {
-            background-color: #1e293b;
-            padding: 30px;
-            border-radius: 12px;
-            display: inline-block;
-            margin-top: 20px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+
+        nav {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        a {
+            color: #38bdf8;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #94a3b8;
         }
     </style>
 </head>
 <body>
-    <div class="box">
+    <main>
         <h1>KAUANX STUDIO</h1>
-        <p>Bem-vindo ao meu site oficial criado com sucesso!</p>
-    </div>
+
+        <p>Bem-vindo ao site oficial do KAUANX STUDIO.</p>
+
+        <p>
+            Este site apresenta informações sobre nosso projeto
+            e os recursos relacionados à integração com o TikTok.
+        </p>
+
+        <nav aria-label="Links legais">
+            <a href="privacy.html">Política de Privacidade</a>
+            <a href="terms.html">Termos de Serviço</a>
+        </nav>
+
+        <footer>
+            &copy; 2026 KAUANX STUDIO
+        </footer>
+    </main>
 </body>
 </html>
+```
